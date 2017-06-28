@@ -26,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        fazAlgumaCoisa();
+    }
+
+    public void fazAlgumaCoisa (){
+        // TODO
     }
 
     @Override
