@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        fazAlgumaCoisa();
+        fazAlgumaCoisa(5, 6);
     }
 
-    public void fazAlgumaCoisa (){
-        // TODO
+    public int fazAlgumaCoisa (int a, int b){
+        return a + b;
     }
 
     @Override
